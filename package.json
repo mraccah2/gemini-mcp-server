@@ -7,12 +7,13 @@
   "type": "module",
   "bin": {
     "gemini-mcp-server": "start"
-  },  
+  },
   "scripts": {
     "start": "node server.js",
     "testapi": "node testapi.js"
   },
   "dependencies": {
+    "@google/genai": "^1.40.0",
     "@google/generative-ai": "^0.24.0",
     "@modelcontextprotocol/sdk": "^1.7.0",
     "dotenv": "^16.4.7",
